@@ -1,6 +1,6 @@
 import React from "react";
-import PortfolioContainer from "./components/PortfolioContainer";
+import DisplayPage from "./components/DisplayPage";
 
-const App = () => <PortfolioContainer />;
+const App = () => <DisplayPage />;
 
 export default App;

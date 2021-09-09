@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-import Navigation from './Navigation';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
+import Navigation from '../Navigation';
+import About from '../About';
+import Portfolio from '../Portfolio';
+import Contact from '../Contact';
+import Resume from '../Resume';
 
-function PageSelector() {
-  // Using useState, set the default value for currentPage to 'About'
+function Header() {
   const [currentPage, handlePageChange] = useState('About');
 
   // The renderPage method uses a switch statement to render the appropriate current page
@@ -19,18 +18,17 @@ function PageSelector() {
       case 'Resume':
         return <Resume />;
       default:
-        return <About />;
+        return <About/>;
     }
   };
 
   return (
     <div>
-      {/* Pass the state value and the setter as props to Navigation */}
+      <h1>Chris Koberstine</h1>
       <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Call the renderPage function passing in the currentPage */}
       <div>{renderPage(currentPage)}</div>
     </div>
   );
 }
 
-export default PageSelector;
+export default Header;
