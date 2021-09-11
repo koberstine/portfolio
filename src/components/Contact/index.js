@@ -1,20 +1,36 @@
-import React from "react";
+import React, { useState } from 'react';
 
-const Contact = () => (
-  <div>
-    <h1>Contact Page</h1>
-    <p>
-      Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis molestie urna.
-      Aliquam semper ultrices varius. Aliquam faucibus sit amet magna a ultrices. Aenean
-      pellentesque placerat lacus imperdiet efficitur. In felis nisl, luctus non ante euismod,
-      tincidunt bibendum mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-      posuere, eget tristique dui dapibus. Maecenas fermentum elementum faucibus. Quisque nec metus
-      vestibulum, egestas massa eu, sollicitudin ipsum. Nulla facilisi. Sed ut erat ligula. Nam
-      tincidunt nunc in nibh dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-      conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at rhoncus. Etiam vel
-      condimentum magna, quis tempor nulla.
-    </p>
-  </div>
-);
+function Contact() {
+  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const { name, email, message } = formState;
+
+  function handleChange(e) {
+    setFormState({...formState, [e.target.name]: e.target.value })
+  }
+
+  function handleSubmit(e) {
+    e.preventDefault();
+  }
+
+  return (
+    <section>
+      <h1>Contact Me</h1>
+      <form id="contact-form">
+        <div>
+          <label htmlFor="name">Name:</label>
+          <input type="text" defaultValue={name} onChange={handleChange} name="name" />
+        </div>
+        <div>
+          <label htmlFor="email">Email:</label>
+          <input type="email" defaultValue={email} name="email" onChange={handleChange} />
+        </div>
+        <div>
+          <label htmlFor="message">Message:</label>
+          <textarea name="message" defaultValue={message} onChange={handleChange} rows="5" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+)};
 
 export default Contact;
