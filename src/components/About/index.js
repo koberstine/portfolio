@@ -19,11 +19,14 @@ function About () {
     <h1>About Me</h1>
     <Avatar className={classes.blue}>CK</Avatar>
     <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
+      Full stack developer and U.S. Army veteran with experience in computer/network support and 
+      customer service. Recently earned a certificate in full stack development from the University 
+      of Central Florida. Skills in JavaScript, CSS and MERN stack (MongoBD, Express.js, Node.js and 
+      React.js). With a goal to employ clean and organized code and self-commenting naming 
+      conventions to build responsive applications that are easy for other developers and team 
+      members to integrate. Excited to leverage my skills as part of a fast-paced, quality-driven 
+      team to create applications solving real-world problems and delivering an outstanding user 
+      experience.
     </p>
   </div>
   )};
