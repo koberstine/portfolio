@@ -12,7 +12,7 @@ const Resume = () => (
       target="_blank"
       rel="noreferrer">
       <button>
-        <FaFilePdf size={98}/>
+        <FaFilePdf fill='red' size={98}/>
       </button>
     </a>
   </section>

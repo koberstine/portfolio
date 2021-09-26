@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => (
 
   <section>
+    <h1 class="title">Portfolio of Projects</h1>
     <div class="flex flex-row">
       <div class="flex flex-column">
         {projects.map((project, i) => (
