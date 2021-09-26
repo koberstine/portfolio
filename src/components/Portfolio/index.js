@@ -17,8 +17,11 @@ const Portfolio = () => (
             <img
               key={i}
               src={require(`../../../assets/images/image${i}.jpg`).default}
+              onMouseOver={e => (e.currentTarget.src=require(`../../../assets/images/screenshot${i}.jpg`).default)}
+              onMouseOut={e => (e.currentTarget.src=require(`../../../assets/images/image${i}.jpg`).default)}
               alt={project.name}
-              className="img-thumbnail mx-1" /></>
+              style={{width: 300, height: 150}}
+              /></>
         ))}
       </div>   
     </div>
