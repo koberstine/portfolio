@@ -16,9 +16,9 @@ const Portfolio = () => (
             <p class="project-tech">{project.tech}</p>
             <img
               key={i}
-              src={require(`../../../assets/images/image${i}.jpg`).default}
-              onMouseOver={e => (e.currentTarget.src=require(`../../../assets/images/screenshot${i}.jpg`).default)}
-              onMouseOut={e => (e.currentTarget.src=require(`../../../assets/images/image${i}.jpg`).default)}
+              src={require(`../../assets/images/image${i}.jpg`).default}
+              onMouseOver={e => (e.currentTarget.src=require(`../../assets/images/screenshot${i}.jpg`).default)}
+              onMouseOut={e => (e.currentTarget.src=require(`../../assets/images/image${i}.jpg`).default)}
               alt={project.name}
               style={{width: 300, height: 150}}
               /></>
