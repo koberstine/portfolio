@@ -1,8 +1,8 @@
 import React from "react";
 
 const Resume = () => (
-  <div>
-    <h1>Resume Page</h1>
+  <section>
+    <h1 class="title">Resume Page</h1>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
       varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
@@ -13,7 +13,7 @@ const Resume = () => (
       consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
       fames ac ante ipsum primis in faucibus.
     </p>
-  </div>
+  </section>
 );
 
 export default Resume;

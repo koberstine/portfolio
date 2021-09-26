@@ -15,8 +15,8 @@ function About () {
   const classes = useStyles();
 
   return (
-  <div>
-    <h1>About Me</h1>
+  <section>
+    <h1 class="title">About Me</h1>
     <Avatar className={classes.blue}>CK</Avatar>
     <p>
       Full stack developer and U.S. Army veteran with experience in computer/network support and 
@@ -28,7 +28,7 @@ function About () {
       team to create applications solving real-world problems and delivering an outstanding user 
       experience.
     </p>
-  </div>
+  </section>
   )};
 
 export default About;
