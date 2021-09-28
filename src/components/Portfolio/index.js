@@ -6,12 +6,13 @@ const Portfolio = () => (
 
   <section>
     <h1 class="title">Portfolio of Projects</h1>
-    <div class="flex flex-row">
-      <div class="flex flex-column">
+    <div>
+      <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
         {projects.map((project, i) => (
-          <><a href={project.deployed}>
+          <div style={{flexDirection: "column", margin: 30}}>
+            <a href={project.deployed}>
               <h2 class="project-name">{project.name}
-                <a href={project.github}> <FaGithub size={14} /> </a>
+                <a href={project.github}> <FaGithub size={28} /> </a>
               </h2>
             </a>
             <p class="project-tech">{project.tech}</p>
@@ -22,7 +23,8 @@ const Portfolio = () => (
               onMouseOut={e => (e.currentTarget.src=require(`../../assets/images/image${i}.jpg`).default)}
               alt={project.name}
               style={{width: 300, height: 150}}
-              /></>
+              />
+          </div>
         ))}
       </div>   
     </div>

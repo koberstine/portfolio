@@ -34,11 +34,11 @@ function Contact() {
       <h1 class="title">Contact Me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name:</label>
+          <label htmlFor="name" style={{marginRight: 15}}>Name:</label>
           <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
         <div>
-          <label htmlFor="email">Email:</label>
+          <label htmlFor="email" style={{marginRight: 15}}>Email:</label>
           <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
         <div>
@@ -50,7 +50,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit">Submit</button>
+        <button type="submit" style={{marginLeft: 60}}>Submit</button>
       </form>
     </section>
 )};

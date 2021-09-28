@@ -10,9 +10,9 @@ function Navigation(props) {
   }, [])
 
   return (
-    <ul className="nav nav-tabs">
+    <ul className="nav nav-tabs" style={{ listStyleType: "none", paddingLeft: 0, display: "flex", flexDirection: "row" }}>
       {tabs.map(tab => (
-        <li className="nav-item" key={tab}>
+        <li className="nav-item" key={tab} style={{marginRight: 30}}>
           <a
             href={'#' + tab.toLowerCase()}
             

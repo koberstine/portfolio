@@ -18,7 +18,7 @@ function About () {
   <section>
     <h1 class="title">About Me</h1>
     <Avatar className={classes.blue}>CK</Avatar>
-    <p>
+    <p style={{fontSize: '1.75rem', margin: 60}}>
       Full stack developer and U.S. Army veteran with experience in computer/network support and 
       customer service. Recently earned a certificate in full stack development from the University 
       of Central Florida. Skills in JavaScript, CSS and MERN stack (MongoBD, Express.js, Node.js and 
