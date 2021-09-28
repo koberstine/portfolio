@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ccab4966.chunk.css",
+    "main.js": "/portfolio/static/js/main.7d221f73.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7d221f73.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.c52dfc34.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c52dfc34.js.map",
+    "static/js/2.61f02cda.chunk.js": "/portfolio/static/js/2.61f02cda.chunk.js",
+    "static/js/2.61f02cda.chunk.js.map": "/portfolio/static/js/2.61f02cda.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.ccab4966.chunk.css.map": "/portfolio/static/css/main.ccab4966.chunk.css.map",
+    "static/js/2.61f02cda.chunk.js.LICENSE.txt": "/portfolio/static/js/2.61f02cda.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/portfolio/static/media/background.180b581c.jpg",
+    "static/media/chris-koberstine-resume.5c37c210.pdf": "/portfolio/static/media/chris-koberstine-resume.5c37c210.pdf",
+    "static/media/image0.jpg": "/portfolio/static/media/image0.12a822ad.jpg",
+    "static/media/image1.jpg": "/portfolio/static/media/image1.c61b41b1.jpg",
+    "static/media/image2.jpg": "/portfolio/static/media/image2.3c336b6f.jpg",
+    "static/media/image3.jpg": "/portfolio/static/media/image3.3e8df194.jpg",
+    "static/media/image4.jpg": "/portfolio/static/media/image4.683ca86a.jpg",
+    "static/media/image5.jpg": "/portfolio/static/media/image5.7a43e3a2.jpg",
+    "static/media/screenshot.jpg": "/portfolio/static/media/screenshot.87c9bbd5.jpg",
+    "static/media/screenshot0.jpg": "/portfolio/static/media/screenshot0.35e531ad.jpg",
+    "static/media/screenshot1.jpg": "/portfolio/static/media/screenshot1.a8f57ac1.jpg",
+    "static/media/screenshot2.jpg": "/portfolio/static/media/screenshot2.e7dcd042.jpg",
+    "static/media/screenshot3.jpg": "/portfolio/static/media/screenshot3.18d8654c.jpg",
+    "static/media/screenshot4.jpg": "/portfolio/static/media/screenshot4.a40cb7af.jpg",
+    "static/media/screenshot5.jpg": "/portfolio/static/media/screenshot5.6c3d36de.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c52dfc34.js",
+    "static/js/2.61f02cda.chunk.js",
+    "static/css/main.ccab4966.chunk.css",
+    "static/js/main.7d221f73.chunk.js"
+  ]
+}
