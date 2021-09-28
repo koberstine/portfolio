@@ -1,24 +1,43 @@
 :root {
-  --primary-color: #00008b;
-  --secondary-color: #40e0d0;
-  --tertiary-color: #000000;
+  --primary-color: #adcad6;
+  --secondary-color: #f18f01;
+  --tertiary-color: #99c24d;
 }
 
 body {
-  color: var(--secondary-color);
-  font-family: Georgia, Times, "Times New Roman", serif;
+  color: var(--primary-color);
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
   background-image: url("../images/background.jpg");
-  background-position: "center";
-  background-size: "cover";
-  background-repeat: "no-repeat";
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1,
+h2 {
+  font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 2.95rem;
+}
+
+h2 {
+  font-size: 2.1rem;
+  color: var(--secondary-color);
+  padding: 50px, 0;
+}
+
+h3 {
+  font-size: 1.75rem;
 }
 
 a {
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
 
 img {
   border-style: solid;
-  border-width: 8px;
+  border-width: 6px;
   border-color: var(--secondary-color);
 }

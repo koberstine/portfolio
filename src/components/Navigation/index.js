@@ -12,7 +12,7 @@ function Navigation(props) {
   return (
     <ul className="nav nav-tabs" style={{ listStyleType: "none", paddingLeft: 0, display: "flex", flexDirection: "row" }}>
       {tabs.map(tab => (
-        <li className="nav-item" key={tab} style={{marginRight: 30}}>
+        <li className="nav-item" key={tab} style={{fontSize: '1.5rem', marginRight: 30}}>
           <a
             href={'#' + tab.toLowerCase()}
             

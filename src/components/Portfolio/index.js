@@ -5,15 +5,15 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => (
 
   <section>
-    <h1 class="title">Portfolio of Projects</h1>
+    <h2 class="title">Portfolio of Projects</h2>
     <div>
       <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
         {projects.map((project, i) => (
           <div style={{flexDirection: "column", margin: 30}}>
             <a href={project.deployed}>
-              <h2 class="project-name">{project.name}
+              <h3 class="project-name">{project.name}
                 <a href={project.github}> <FaGithub size={28} /> </a>
-              </h2>
+              </h3>
             </a>
             <p class="project-tech">{project.tech}</p>
             <img

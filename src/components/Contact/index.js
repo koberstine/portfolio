@@ -31,14 +31,14 @@ function Contact() {
 
   return (
     <section>
-      <h1 class="title">Contact Me</h1>
+      <h2 class="title">Contact Me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name" style={{marginRight: 15}}>Name:</label>
           <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
         <div>
-          <label htmlFor="email" style={{marginRight: 15}}>Email:</label>
+          <label htmlFor="email" style={{marginRight: 18}}>Email:</label>
           <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
         <div>
@@ -50,7 +50,7 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button type="submit" style={{marginLeft: 60}}>Submit</button>
+        <button type="submit" style={{marginLeft: 120}}>Submit</button>
       </form>
     </section>
 )};
