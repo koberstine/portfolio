@@ -7,7 +7,7 @@ const Footer = () => (
     <a href="mailto:koberstine@hotmail.com">koberstine@hotmail.com</a>  
     <ul>
     <a href="https://github.com/koberstine" target="_blank" rel="noreferrer"> <FaGithub size={42} /> </a>
-    <a href="https://www.linkedin.com/in/chris-koberstine-754782a4/" target="_blank" rel="noreferrer"> <FaLinkedin size={42} /> </a>
+    <a href="https://www.linkedin.com/in/chris-koberstine/" target="_blank" rel="noreferrer"> <FaLinkedin size={42} /> </a>
     <a href="https://stackoverflow.com/users/15635948/koberstine" target="_blank" rel="noreferrer"> <FaStackOverflow size={42} /> </a>
     </ul>
   </div>
