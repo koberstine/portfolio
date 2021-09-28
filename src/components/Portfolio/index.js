@@ -10,9 +10,9 @@ const Portfolio = () => (
       <div style={{display: "flex", flexDirection: "row", flexWrap: "wrap"}}>
         {projects.map((project, i) => (
           <div style={{flexDirection: "column", margin: 30}}>
-            <a href={project.deployed}>
+            <a href={project.deployed} target="_blank" rel="noreferrer">
               <h3 class="project-name">{project.name}
-                <a href={project.github}> <FaGithub size={28} /> </a>
+                <a href={project.github} target="_blank" rel="noreferrer"> <FaGithub size={28} /> </a>
               </h3>
             </a>
             <p class="project-tech">{project.tech}</p>
