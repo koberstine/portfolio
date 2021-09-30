@@ -34,6 +34,12 @@ const projects = [
       deployed: 'https://koberstine.github.io/weather-dashboard/',
       github: 'https://github.com/koberstine/weather-dashboard/',
       tech: 'Fetch API, AJAX, jQuery, JavaScript',
+    },
+    {
+      name: 'Castle, Cottage or Cave',
+      deployed: 'https://damp-inlet-70422.herokuapp.com/',
+      github: 'https://github.com/koberstine/castle-cottage-or-cave/',
+      tech: 'GraphQL, MongoDB, Express.js, React.js, Node.js',
     }
   ];
 
